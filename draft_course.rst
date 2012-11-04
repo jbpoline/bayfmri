@@ -160,7 +160,39 @@ PCA with nipy again
 (is there still movement artifact?)
 (is there still slice-timing artifact?)
 
-Statistics
+Statistics part I: Modelling and testing one voxel / one region
+
+A) First recall simple linear regression
+an example with simple regression and independant noise
+* fitting the model : finding the model's parameters 
+* Noise : properties of the noise - what is a good versus a bad fit ?
+* Testing the parameters: t-test, F-test
+
+B) Correlated noise : first level analyses  
+
+Going from neural events to BOLD responses
+Several experimental conditions: multiple regression 
+    - modeling one run with two or three conditions
+    - nuisance variable (eg mvt parameters)
+    - event related models : one hrf
+    - event related : several basis functions - F-test testing
+
+C) Second level analyses:  
+    - Modelling factors and interactions, associated contrast and t or F tests
+    - Mixed effects analyses: within and between factors
+
+Statistics part II: multiple comparison issues
+
+Family wise error concept: correcting for the number of tests
+detection at the voxel level, at the cluster level
+Techniques for correction : GRF and Permutation 
+False discovery rate correction: sensibility and specificity 
+
+Other analyses
+
+- machine learning
+- connectivity
+- ...
 
 
 *********
