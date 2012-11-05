@@ -63,6 +63,9 @@ Require:
 Day 1
 *****
 
+Image manipulation
+==================
+
 Read a 3D image as a numpy array
 Show image slices with matplotlib
 
@@ -102,6 +105,9 @@ Basic diagnostics
 * Detecting some common artifacts (RF, slice dropout - with examples)
 * (automated spike detection?)
 * PCA plots / images with nipy?
+
+fMRI preprocessings
+===================
 
 Slice timing correction
 
@@ -161,6 +167,7 @@ PCA with nipy again
 (is there still slice-timing artifact?)
 
 Statistics part I: Modelling and testing one voxel / one region
+===============================================================
 
 A) First recall simple linear regression
 an example with simple regression and independant noise
@@ -168,7 +175,7 @@ an example with simple regression and independant noise
 * Noise : properties of the noise - what is a good versus a bad fit ?
 * Testing the parameters: t-test, F-test
 
-B) Correlated noise : first level analyses  
+B) First level analyses : case of correlated noise   
 
 Going from neural events to BOLD responses
 Several experimental conditions: multiple regression 
@@ -181,14 +188,21 @@ C) Second level analyses:
     - Modelling factors and interactions, associated contrast and t or F tests
     - Mixed effects analyses: within and between factors
 
+D) Diagnostic tools ?
+
 Statistics part II: multiple comparison issues
+==============================================
 
 Family wise error concept: correcting for the number of tests
-detection at the voxel level, at the cluster level
-Techniques for correction : GRF and Permutation 
+Detection at the voxel level, detection at the cluster level
+Techniques for FWE correction : 
+    - Gaussian Random Fields (GRF) 
+    - Permutation 
 False discovery rate correction: sensibility and specificity 
+Conjonctions ?
 
-Other analyses
+Other analyses: 
+================
 
 - machine learning
 - connectivity
