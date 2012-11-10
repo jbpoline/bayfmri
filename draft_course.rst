@@ -59,10 +59,6 @@ Require:
 * pydicom
 * nipy
 
-*****
-Day 1
-*****
-
 Image manipulation
 ==================
 
@@ -170,42 +166,55 @@ Statistics part I: Modelling and testing one voxel / one region
 ===============================================================
 
 A) First recall simple linear regression
-an example with simple regression and independant noise
+----------------------------------------
+
+An example with simple regression and independent noise
 * fitting the model : finding the model's parameters 
 * Noise : properties of the noise - what is a good versus a bad fit ?
-* Testing the parameters: t-test, F-test
+* Testing one parameter: t-test, F-test
 
-B) First level analyses : case of correlated noise   
 
-Going from neural events to BOLD responses
-Several experimental conditions: multiple regression 
-    - modeling one run with two or three conditions
-    - nuisance variable (eg mvt parameters)
-    - event related models : one hrf
-    - event related : several basis functions - F-test testing
+B) First level analyses : case of correlated noise: whitening
+-------------------------------------------------------------
+
+    - Going from neural events to BOLD responses - 
+    - Several experimental conditions: multiple regression 
+    - Nuisance variable (eg mvt parameters)
+    - AR estimation 
+    - Event related models : one hrf  / several basis functions - F-test testing
 
 C) Second level analyses:  
-    - Modelling factors and interactions, associated contrast and t or F tests
-    - Mixed effects analyses: within and between factors
+---------------------------
+
+    - Why a second level analysis at all ? The idea of several variance components
+    - Modelling factors and interactions (between subject factor only), how to interpret the contrasts 
+    - take the example of a 2 or 3 ways ANOVA model : how do I specify the
+      contrasts ?
+    - Mixed effects analyses: within and between factors examples
 
 D) Diagnostic tools ?
+---------------------
+
+    - univariate ?
+    - multivariate ?
 
 Statistics part II: multiple comparison issues
 ==============================================
 
-Family wise error concept: correcting for the number of tests
-Detection at the voxel level, detection at the cluster level
-Techniques for FWE correction : 
-    - Gaussian Random Fields (GRF) 
-    - Permutation 
-False discovery rate correction: sensibility and specificity 
-Conjonctions ?
+    - Family wise error concept: correcting for the number of tests
+    - Detection at the voxel level, detection at the cluster level
+    - Techniques for FWE correction : 
+        - Gaussian Random Fields (GRF) 
+        - Permutation 
+    - False discovery rate correction: sensitivity and specificity - Effect
+      size, how many subjects, ...
+    - Conjunctions ?
 
 Other analyses: 
 ================
 
 - machine learning
-- connectivity
+- Resting state / activation connectivity (functional, effective ...)
 - ...
 
 
