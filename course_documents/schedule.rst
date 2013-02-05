@@ -10,15 +10,36 @@ One-day course:
 
 [skip for beta] Getting started: crash course on the shell, ipython, etc.
 
-Image manipulation and visualization (2 hours)
+An attempt at the schedule :
+----------------------------
 
-fMRI preprocessing (2 hours)
+10:00-10:10 : Intro to the course 
 
-Simple linear regression (1 hour)
+10:10 - 13:00 : fMRI preprocessing - Image manipulation and visualization (2 hours)
 
-First level analysis (2 hours)
+    * fMRI preprocessing : 
+      - realignment - slice timing
 
-Second level analysis (1 hour)
+    * coregistration and spatial normalization
 
-(visualization is woven throughout)
+    * Simple linear regression - GLM
 
+13:00-14:00: Lunch
+
+14:00-15:30 First level analysis
+    
+    * HRF modelling -Fitting - AR(1) noise
+
+    * testing at one voxel: t-F tests
+    
+15:30-16:00 Break
+
+16:00-18:00: Connectivity, Second level Analysis, Vizualization
+
+    * Functional connectivity 
+
+    * Second level analysis - Random and mixed FX 
+
+    * testing across voxels - multiple comparison issues
+
+    * Vizualization 
