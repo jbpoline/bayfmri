@@ -17,6 +17,9 @@ An attempt at the schedule :
 
 10:10 - 13:00 : fMRI preprocessing - Image manipulation and visualization (2 hours)
 
+
+    * image manipulation - artefact detection 
+
     * fMRI preprocessing : 
       - realignment - slice timing
 
@@ -28,9 +31,10 @@ An attempt at the schedule :
 
 14:00-15:30 First level analysis
     
+    * testing at one voxel: GLM / t-F tests
+
     * HRF modelling -Fitting - AR(1) noise
 
-    * testing at one voxel: t-F tests
     
 15:30-16:00 Break
 
