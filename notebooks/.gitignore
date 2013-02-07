@@ -1,0 +1,7 @@
+egscans/*
+*.aux
+*.log
+*.out
+*.rst
+*.tex
+*files/*
