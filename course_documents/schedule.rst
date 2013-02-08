@@ -17,6 +17,8 @@ An attempt at the schedule :
 
 10:10 - 13:00 : fMRI preprocessing - Image manipulation and visualization (2 hours)
 
+    * python/ipython - imports / name space - arrays ... : a quick hitchiking
+      guide
 
     * python packaging and installation issue / imports ...
       + image manipulation - artefact detection (Matthew + Michael ? )
