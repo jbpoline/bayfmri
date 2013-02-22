@@ -157,6 +157,7 @@ Spatial normalization
 
 Diagnostics
 
+Sanity check: looking at your data for basic QA
 Getting ready for the statistical analysis
 PCA with nipy again
 (is there still movement artifact?)
@@ -169,7 +170,7 @@ A) First recall simple linear regression
 ----------------------------------------
 
 An example with simple regression and independent noise
-* fitting the model : finding the model's parameters 
+* fitting the model : finding the model's parameters
 * Noise : properties of the noise - what is a good versus a bad fit ?
 * Testing one parameter: t-test, F-test
 
@@ -177,17 +178,17 @@ An example with simple regression and independent noise
 B) First level analyses : case of correlated noise: whitening
 -------------------------------------------------------------
 
-    - Going from neural events to BOLD responses - 
-    - Several experimental conditions: multiple regression 
+    - Going from neural events to BOLD responses -
+    - Several experimental conditions: multiple regression
     - Nuisance variable (eg mvt parameters)
-    - AR estimation 
+    - AR estimation
     - Event related models : one hrf  / several basis functions - F-test testing
 
-C) Second level analyses:  
+C) Second level analyses:
 ---------------------------
 
     - Why a second level analysis at all ? The idea of several variance components
-    - Modelling factors and interactions (between subject factor only), how to interpret the contrasts 
+    - Modelling factors and interactions (between subject factor only), how to interpret the contrasts
     - take the example of a 2 or 3 ways ANOVA model : how do I specify the
       contrasts ?
     - Mixed effects analyses: within and between factors examples
@@ -203,14 +204,14 @@ Statistics part II: multiple comparison issues
 
     - Family wise error concept: correcting for the number of tests
     - Detection at the voxel level, detection at the cluster level
-    - Techniques for FWE correction : 
-        - Gaussian Random Fields (GRF) 
-        - Permutation 
+    - Techniques for FWE correction :
+        - Gaussian Random Fields (GRF)
+        - Permutation
     - False discovery rate correction: sensitivity and specificity - Effect
       size, how many subjects, ...
     - Conjunctions ?
 
-Other analyses: 
+Other analyses:
 ================
 
 - machine learning
